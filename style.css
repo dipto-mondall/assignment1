@@ -53,6 +53,169 @@
 	font-size: 20px;
 	font-weight: 600;
 }
+/* menu */
+menu{
+    max-width: 1072px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.menu_section {
+	display: flex;
+	align-items: center;
+	gap: 90px;
+}
+.menu_section h2 {
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	color: #151414;
+}
+.menu_section p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 20px;
+}
+ul{
+    list-style: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.menu_section i{
+	color: #16D887;
+	padding-right: 5px;
+}
+/* my_plants_section */
+.my_plants_section{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-bottom: 100px;
+}
+.my_plants_section .main_column {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.my_plants_section h2 {
+	text-align: center;
+	padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.my_plants_section h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 10px;
+}
+.my_plants_section p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+.my_plants_section img {
+    padding-bottom: 15px;
+}
+/* socket_section */
+.socket_section{
+    margin: 0 auto;
+    max-width: 1140px;
+    background:url(./images/gradient1.png), url(./images/watch.png);
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+}
+.socket_section .content {
+	margin-left: 60px;
+}
+.socket_section h2{
+   color: #fff;
+   font-size: 40px;
+   font-weight: 700;
+   padding-bottom: 10px;
+}
+.socket_section button {
+	height: 50px;
+	padding: 0 20px;
+	color: #005FAC;
+	font-size: 20px;
+	font-weight: 600;
+}
+/* footer_section */
+.footer{
+     background: #000; 
+    padding: 150px 0;
+}
+.footer .main_column{
+    margin: 0 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .left_column{
+    width: 40%;
+    margin-right: 40%;
+}
+.footer .right_column{
+    width: 20%;
+}
+.footer .left_column h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    padding-bottom: 15px;
+}
+.footer .left_column p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer .left_column a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.footer .icon {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding-top: 10px;
+}
+
+
+.footer .right_column h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    padding-bottom: 15px;
+}
+
+.footer .right_column button {
+	height: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 0 20px;
+	background-color: #005FAC;
+	color: #fff;
+	border-style: none;
+	border-radius: 7px;
+    transition: .4s;
+}
+.footer .right_column button:hover{
+    background: #F8F8F8;
+    color: #000;
+}
+.footer #email {
+	padding: 15px 30px;
+	background: #000;
+	color: #ffff;
+	font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
 
 
 
