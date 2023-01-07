@@ -1,3 +1,59 @@
-h1{
-    color: blueviolet;
+/* global css */
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
+
+/* header banner */
+#header img{
+    width: 100%;
+}
+
+#header{
+    position: relative;
+}
+
+.banner {
+	position: absolute;
+	width: 100%;
+	top: 33%;
+	text-align: right;
+}
+
+.banner_content {
+	margin-right: 200px;
+    display: flex;
+}
+.banner_content .left_column{
+    width: 58%;
+    margin-right: 2%;
+}
+
+.banner_content .right_column{
+    width: 40%;
+}
+
+.banner h2 {
+	font-size: 65px;
+	font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.banner .btn {
+	height: 60px;
+	padding: 0 15px;
+	color: #005FAC;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+
